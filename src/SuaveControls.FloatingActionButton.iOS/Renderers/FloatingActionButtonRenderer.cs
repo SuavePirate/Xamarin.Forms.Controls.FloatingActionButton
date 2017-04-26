@@ -14,8 +14,15 @@ using SuaveControls.FloatingActionButton.iOS.Renderers;
 [assembly: ExportRenderer(typeof(SuaveControls.Views.FloatingActionButton), typeof(FloatingActionButtonRenderer))]
 namespace SuaveControls.FloatingActionButton.iOS.Renderers
 {
+    [Preserve]
     public class FloatingActionButtonRenderer : ButtonRenderer
     {
+        public static void InitRenderer()
+        {
+        }
+        public FloatingActionButtonRenderer()
+        {
+        }
         protected override void OnElementChanged(ElementChangedEventArgs<Button> e)
         {
             base.OnElementChanged(e);
