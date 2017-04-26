@@ -37,7 +37,7 @@ Then you can include it in your XAML or call it from C# (See the example project
 ![iOS Floating Action Button](https://i2.wp.com/alexdunndev.files.wordpress.com/2017/04/2017-04-25_10-38-38-pm.jpg?ssl=1&w=450)
 
 ## TODO:
-
+- Make it more flexible. Add Different color states, add sizing adjustments, etc.
 - Create UWP implementation
 - Create Nuget package
 - Create Xamarin Component
