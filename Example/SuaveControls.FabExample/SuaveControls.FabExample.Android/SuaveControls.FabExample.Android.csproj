@@ -17,7 +17,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -129,7 +129,7 @@
       <Name>SuaveControls.FloatingActionButton</Name>
     </ProjectReference>
     <ProjectReference Include="..\SuaveControls.FabExample\SuaveControls.FabExample.csproj">
-      <Project>{69917856-064d-4e96-9ea5-a46dd4c5214b}</Project>
+      <Project>{FF448E92-8D9F-4AE7-BCA9-8ADE8588CCD7}</Project>
       <Name>SuaveControls.FabExample</Name>
     </ProjectReference>
   </ItemGroup>
