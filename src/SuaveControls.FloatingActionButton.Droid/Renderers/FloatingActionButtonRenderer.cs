@@ -32,6 +32,7 @@ namespace SuaveControls.FloatingActionButton.Droid.Renderers
             var fab = new FAB(Context);
             // set the bg
             fab.BackgroundTintList = ColorStateList.ValueOf(Element.ButtonColor.ToAndroid());
+			fab.UseCompatPadding = true;
 
             // set the icon
             var elementImage = Element.Image;
