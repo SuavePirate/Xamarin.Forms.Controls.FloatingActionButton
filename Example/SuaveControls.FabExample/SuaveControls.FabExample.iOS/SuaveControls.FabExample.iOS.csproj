@@ -132,20 +132,16 @@
       <HintPath>..\..\..\src\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="SuaveControls.FloatingActionButton">
+      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2017.10.17\lib\xamarinios10\SuaveControls.FloatingActionButton.dll</HintPath>
+    </Reference>
+    <Reference Include="SuaveControls.FloatingActionButton.iOS">
+      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2017.10.17\lib\xamarinios10\SuaveControls.FloatingActionButton.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\SuaveControls.FloatingActionButton.iOS\SuaveControls.FloatingActionButton.iOS.csproj">
-      <Project>{de0a4100-2b5b-46de-8277-5e78c1bbc8f7}</Project>
-      <Name>SuaveControls.FloatingActionButton.iOS</Name>
-      <IsAppExtension>false</IsAppExtension>
-      <IsWatchApp>false</IsWatchApp>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\src\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton.csproj">
-      <Project>{6c396f76-2de2-4676-ad15-98e7e78f9f66}</Project>
-      <Name>SuaveControls.FloatingActionButton</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SuaveControls.FabExample\SuaveControls.FabExample.csproj">
-      <Project>{69917856-064d-4e96-9ea5-a46dd4c5214b}</Project>
+      <Project>{FF448E92-8D9F-4AE7-BCA9-8ADE8588CCD7}</Project>
       <Name>SuaveControls.FabExample</Name>
     </ProjectReference>
   </ItemGroup>

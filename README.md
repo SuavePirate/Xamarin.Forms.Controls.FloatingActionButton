@@ -7,6 +7,10 @@ That's right, even on iOS!
 
 Clone the repository and open include the `src` projects in your Xamarin.Forms and Platform projects.
 
+### Now Available on NuGet!
+
+`Install-Package SuaveControls.FloatingActionButton`
+
 **Special note for iOS:** Make sure to call `FloatingActionButtonRenderer.InitRenderer();` in your `AppDelegate.cs` in order to avoid linking it out.
 
 Then you can include it in your XAML or call it from C# (See the example projects for a demo):
@@ -39,5 +43,4 @@ Then you can include it in your XAML or call it from C# (See the example project
 ## TODO:
 - Make it more flexible. Add Different color states, add sizing adjustments, etc.
 - Create UWP implementation
-- Create Nuget package
 - Create Xamarin Component

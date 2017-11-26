@@ -15,20 +15,10 @@
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PackageId>SuaveControls.FloatingActionButton</PackageId>
-    <PackageVersion>2017.10.08</PackageVersion>
-    <Authors>SuavePirate</Authors>
-    <PackageIconUrl>https://alexdunndev.files.wordpress.com/2017/04/xamagonfab.png</PackageIconUrl>
-    <PackageLicenseUrl>https://github.com/SuavePirate/Xamarin.Forms.Controls.FloatingActionButton/blob/master/LICENSE</PackageLicenseUrl>
-    <Owners>SuavePirate</Owners>
-    <PackageProjectUrl>https://github.com/SuavePirate/Xamarin.Forms.Controls.FloatingActionButton</PackageProjectUrl>
-    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
-    <Title>Xamarin.Forms Floating Action Button</Title>
-    <Description>A simple Floating Action button for Xamarin.Forms</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

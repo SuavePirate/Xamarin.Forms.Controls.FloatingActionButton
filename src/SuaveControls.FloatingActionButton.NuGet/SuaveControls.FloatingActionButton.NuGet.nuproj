@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C16C3EE7-F795-48D1-B47B-6273C95301A1}</ProjectGuid>
+    <Description>A custom view to create a FloatingActionButton for both Android and iOS as part of Material Design
+
+That's right, even on iOS!
+
+</Description>
+    <PackageId>SuaveControls.FloatingActionButton</PackageId>
+    <PackageVersion>2017.10.17</PackageVersion>
+    <Authors>SuavePirate</Authors>
+    <DevelopmentDependency>false</DevelopmentDependency>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SuaveControls.FloatingActionButton.NuGet</RootNamespace>
+    <UsePartialTypes>false</UsePartialTypes>
+    <AssemblyName>SuaveControls.FloatingActionButton.NuGet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Owners>SuavePirate</Owners>
+    <PackageTags>Xamarin.Forms FAB FloatingActionButton Xamarin</PackageTags>
+    <Title>Floating Action Button</Title>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <Summary>A custom view to create a FloatingActionButton for both Android and iOS as part of Material Design</Summary>
+    <PackageProjectUrl>https://github.com/SuavePirate/Xamarin.Forms.Controls.FloatingActionButton</PackageProjectUrl>
+    <PackageIconUrl>https://alexdunndev.files.wordpress.com/2017/04/xamagonfab.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/SuavePirate/Xamarin.Forms.Controls.FloatingActionButton/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.0</Version>
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton.csproj">
+      <Project>{6C396F76-2DE2-4676-AD15-98E7E78F9F66}</Project>
+      <Name>SuaveControls.FloatingActionButton</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuaveControls.FloatingActionButton.Droid\SuaveControls.FloatingActionButton.Droid.csproj">
+      <Project>{75A82433-500F-4A3E-B344-AD39D1CC556C}</Project>
+      <Name>SuaveControls.FloatingActionButton.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuaveControls.FloatingActionButton.iOS\SuaveControls.FloatingActionButton.iOS.csproj">
+      <Project>{DE0A4100-2B5B-46DE-8277-5E78C1BBC8F7}</Project>
+      <Name>SuaveControls.FloatingActionButton.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />
+</Project>

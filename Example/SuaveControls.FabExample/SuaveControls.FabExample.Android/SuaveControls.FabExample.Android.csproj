@@ -17,7 +17,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -94,6 +94,14 @@
     <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\src\packages\Xamarin.Forms.2.3.4.231\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="SuaveControls.FloatingActionButton">
+      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2017.10.17\lib\monoandroid80\SuaveControls.FloatingActionButton.dll</HintPath>
+    </Reference>
+    <Reference Include="SuaveControls.FloatingActionButton.Droid">
+      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2017.10.17\lib\monoandroid80\SuaveControls.FloatingActionButton.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Java.Interop" />
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -120,16 +128,8 @@
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\SuaveControls.FloatingActionButton.Droid\SuaveControls.FloatingActionButton.Droid.csproj">
-      <Project>{75a82433-500f-4a3e-b344-ad39d1cc556c}</Project>
-      <Name>SuaveControls.FloatingActionButton.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\src\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton.csproj">
-      <Project>{6c396f76-2de2-4676-ad15-98e7e78f9f66}</Project>
-      <Name>SuaveControls.FloatingActionButton</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SuaveControls.FabExample\SuaveControls.FabExample.csproj">
-      <Project>{69917856-064d-4e96-9ea5-a46dd4c5214b}</Project>
+      <Project>{FF448E92-8D9F-4AE7-BCA9-8ADE8588CCD7}</Project>
       <Name>SuaveControls.FabExample</Name>
     </ProjectReference>
   </ItemGroup>
