@@ -22,6 +22,8 @@ namespace SuaveControls.FloatingActionButton.Droid.Renderers
 {
     public class FloatingActionButtonRenderer : Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer<SuaveControls.Views.FloatingActionButton, FAB>
     {
+        
+        public static void Initialize(){ /* used only for helping ensure the renderer is not linked out */ }
         protected override void OnElementChanged(ElementChangedEventArgs<SuaveControls.Views.FloatingActionButton> e)
         {
             base.OnElementChanged(e);
