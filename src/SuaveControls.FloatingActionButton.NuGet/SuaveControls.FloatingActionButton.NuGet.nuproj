@@ -11,7 +11,7 @@ That's right, even on iOS!
 
 </Description>
     <PackageId>SuaveControls.FloatingActionButton</PackageId>
-    <PackageVersion>2017.11.27</PackageVersion>
+    <PackageVersion>2018.01.05</PackageVersion>
     <Authors>SuavePirate</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -46,10 +46,6 @@ That's right, even on iOS!
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton.csproj">
-      <Project>{6C396F76-2DE2-4676-AD15-98E7E78F9F66}</Project>
-      <Name>SuaveControls.FloatingActionButton</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SuaveControls.FloatingActionButton.Droid\SuaveControls.FloatingActionButton.Droid.csproj">
       <Project>{75A82433-500F-4A3E-B344-AD39D1CC556C}</Project>
       <Name>SuaveControls.FloatingActionButton.Droid</Name>
@@ -57,6 +53,10 @@ That's right, even on iOS!
     <ProjectReference Include="..\SuaveControls.FloatingActionButton.iOS\SuaveControls.FloatingActionButton.iOS.csproj">
       <Project>{DE0A4100-2B5B-46DE-8277-5E78C1BBC8F7}</Project>
       <Name>SuaveControls.FloatingActionButton.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton\SuaveControls.FloatingActionButton.csproj">
+      <Project>{6C396F76-2DE2-4676-AD15-98E7E78F9F66}</Project>
+      <Name>SuaveControls.FloatingActionButton</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />

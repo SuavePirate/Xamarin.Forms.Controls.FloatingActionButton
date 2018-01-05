@@ -17,16 +17,7 @@
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PackageId>SuaveControls.FloatingActionButton</PackageId>
-    <PackageVersion>2017.10.08</PackageVersion>
-    <Authors>SuavePirate</Authors>
-    <PackageIconUrl>https://alexdunndev.files.wordpress.com/2017/04/xamagonfab.png</PackageIconUrl>
-    <PackageLicenseUrl>https://github.com/SuavePirate/Xamarin.Forms.Controls.FloatingActionButton/blob/master/LICENSE</PackageLicenseUrl>
-    <Owners>SuavePirate</Owners>
-    <PackageProjectUrl>https://github.com/SuavePirate/Xamarin.Forms.Controls.FloatingActionButton</PackageProjectUrl>
     <PackageReleaseNotes>Initial release</PackageReleaseNotes>
-    <Title>Xamarin.Forms Floating Action Button</Title>
-    <Description>A simple Floating Action button for Xamarin.Forms</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
