@@ -12,7 +12,7 @@
     <AssemblyName>SuaveControls.FabExample</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -64,7 +64,7 @@
       <HintPath>..\..\..\src\packages\Xamarin.Forms.2.3.4.231\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="SuaveControls.FloatingActionButton">
-      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2017.10.17\lib\portable45-net45+win8+wp8+wpa81\SuaveControls.FloatingActionButton.dll</HintPath>
+      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2018.3.1-pre1\lib\portable45-net45+win8+wpa81\SuaveControls.FloatingActionButton.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

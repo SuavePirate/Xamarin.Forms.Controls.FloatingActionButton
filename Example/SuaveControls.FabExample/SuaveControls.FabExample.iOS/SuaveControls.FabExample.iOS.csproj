@@ -133,10 +133,10 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
     <Reference Include="SuaveControls.FloatingActionButton">
-      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2017.10.17\lib\xamarinios10\SuaveControls.FloatingActionButton.dll</HintPath>
+      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2018.3.1-pre1\lib\xamarinios10\SuaveControls.FloatingActionButton.dll</HintPath>
     </Reference>
     <Reference Include="SuaveControls.FloatingActionButton.iOS">
-      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2017.10.17\lib\xamarinios10\SuaveControls.FloatingActionButton.iOS.dll</HintPath>
+      <HintPath>..\..\..\src\packages\SuaveControls.FloatingActionButton.2018.3.1-pre1\lib\xamarinios10\SuaveControls.FloatingActionButton.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
