@@ -31,9 +31,8 @@ namespace SuaveControls.FloatingActionButton.iOS.Renderers
                 return;
 
             // remove text from button and set the width/height/radius
-            Element.WidthRequest = 50;
-            Element.HeightRequest = 50;
-            Element.BorderRadius = 25;
+            Element.HeightRequest = Element.WidthRequest;
+            Element.BorderRadius = (int)Element.WidthRequest / 2;
             Element.BorderWidth = 0;
             Element.Text = null;
 
